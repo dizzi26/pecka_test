@@ -1,0 +1,75 @@
+body {
+	background: #363636; 
+	font-family: Calibri; 
+	font-size: 18px; 
+	color: #ff0052;
+	width: 700px;
+	margin: auto;
+	}
+
+h1 {
+	font-size: 20px; 
+	font-family: Arial;
+	}
+a {
+	color: darkred; 
+	text-decoration: none;
+	}
+
+form {
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+	}
+
+.form_input {
+	width: 300px;
+	background: rgb(255,52,93);
+	height: 50px; font-size: 0.9em;
+	background: linear-gradient(172deg, rgba(255,52,93,1) 0%, rgba(105,47,58,1) 100%);
+	color: white; font-weight: bold;
+	box-shadow: 1px 1px 5px black; margin: 0 20px 0 20px;
+	}
+
+.form_button {
+	width: 150px; 
+	height: 40px; 
+	border-radius: 20px; 
+	border: 0px; 
+	color: black; 
+	font-family: Tahoma; 
+	font-size: 16px; 
+	font-weight: bold; 
+	margin: 20px;
+	background: rgb(255,52,93);
+	background: linear-gradient(172deg, rgba(255,52,93,1) 0%, rgba(105,47,58,1) 100%);
+	box-shadow: 2px 2px 1px black;
+	}
+
+.form_button:hover {
+	background: linear-gradient(172deg, rgba(105,47,58,1) 0%, rgba(255,52,93,1) 100%);
+	color: white;
+	}
+
+.h1 {
+	color: black; 
+	width: 300px; text-align: center; 
+	border-radius: 25px; margin: auto;
+	background: rgb(255,0,52);
+	background: linear-gradient(180deg, white 0%, rgba(255,0,52,1) 100%);
+	box-shadow: 2px 2px 1px black; padding: 8px; 
+	margin-bottom: 20px;
+	margin-top: 20px;}
+
+.h1:hover {
+	box-shadow: 3px 3px 5px black;
+	}
+
+.result {
+	width: 90%; 
+	height: 70px; 
+	font-size: 0.9em; 
+	margin: 20px;
+	background: black; 
+	color: #cc0047;
+}
