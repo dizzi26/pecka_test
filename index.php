@@ -42,8 +42,7 @@ function translate($string)
 		$result .= $string." ";
 		$string = strtok(" ");
 	}
-	
-return $result;
+	return $result;
 }
 ?>
 
