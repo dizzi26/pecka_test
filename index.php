@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="cs">
 <meta charset="UTF-8">
 
@@ -39,10 +39,10 @@ function translate($string)
 		{
 			$string = ucfirst($string);
 		}
-	
 	$result .= $string." ";
 	$string = strtok(" ");
-   }
+	}
+	
 return $result;
 }
 ?>
