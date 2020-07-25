@@ -39,8 +39,8 @@ function translate($string)
 		{
 			$string = ucfirst($string);
 		}
-	$result .= $string." ";
-	$string = strtok(" ");
+		$result .= $string." ";
+		$string = strtok(" ");
 	}
 	
 return $result;
